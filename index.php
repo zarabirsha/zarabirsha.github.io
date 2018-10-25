@@ -11,7 +11,7 @@
 		<div class="top">Zarabirsha</div>
 		<div class="para">
 			My name is Giuseppe Bertolini and I'm a streetphotographer. Sort of.
-			Class '96, based in Milan, I'm studying Computer Science at PoliMi
+			Class 1996, based in Milan, I'm studying Computer Science at PoliMi
 			and this, photography, is my passion.
 			I shoot both film and digital, cameras and phone.
 			I try to portray what strikes my mind. 
