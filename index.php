@@ -19,12 +19,11 @@
 		<div class="nav"><a href="mailto:zarabirsha@gmail.com">mail </a>-<a href="https://www.instagram.com/zarabirsha" > instagram</a></div>
 		<?php
 		$servername = "localhost";
-		$username = "root";
-		$password = "OcagattolettotoporagnO";
+		$username = "readonly";
 		$dbname = "zbshaphoto";
 
 		// Create connection
-		$conn = new mysqli($servername, $username, $password, $dbname);
+		$conn = new mysqli($servername, $username,'', $dbname);
 
 		$sql = "SELECT *  FROM photos";
 		$result = $conn->query($sql);
