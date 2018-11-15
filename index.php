@@ -9,8 +9,16 @@
 	</head>
 	<body>
 		<form>
-			a : <input type = "text" name = "a">
-			b : <input type = "text" name = "b">
-			<input type = "submit">
+			a : <input id = "a" type = "text" name = "a">
+			b : <input id = "b" type = "text" name = "b">
+			<a href = "javascript: add()">addup</>
 		</form>	
+		<script>
+			function add(){
+				var a = document.getElementById("a");
+				var b = document.getElementById("b");
+				var c = a + b;
+				return c
+			}
+		</script>
 	</body>
