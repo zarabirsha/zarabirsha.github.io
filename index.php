@@ -11,5 +11,6 @@
 		<form>
 			a : <input type = "text" name = "a">
 			b : <input type = "text" name = "b">
+			<input type = "submit">
 		</form>	
 	</body>
