@@ -9,7 +9,7 @@
 	</head>
 	<body>
 		<form>
-			a : <input type = "text" name = "a"
-			b : <input type = "text" name = "b"
+			a : <input type = "text" name = "a">
+			b : <input type = "text" name = "b">
 		</form>	
 	</body>
