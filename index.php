@@ -17,7 +17,7 @@
 			function add(){
 				var a = document.getElementById("a").value;
 				var b = document.getElementById("b").value;
-				var c = 0 + a + b;
+				var c = 	parseInt(a,10) + parseInt(b,10);
 				document.getElementById("b").value = c;
 			}
 		</script>
