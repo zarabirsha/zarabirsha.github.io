@@ -20,7 +20,7 @@
 				var b = parseInt(document.getElementById("b").value,10);
 				var c = a + b	;
 				//document.getElementById("b").value = c;
-				document.getElementById("sum").value = c;
+				document.getElementById("sum").innerHTML= c;
 			}
 		</script>
 	</body>
