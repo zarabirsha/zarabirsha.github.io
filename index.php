@@ -17,7 +17,7 @@
 			function add(){
 				var a = document.getElementById("a").value;
 				var b = document.getElementById("b").value;
-				var c = a + b + 0;
+				var c = 0 + a + b;
 				document.getElementById("b").value = c;
 			}
 		</script>
