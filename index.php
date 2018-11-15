@@ -15,8 +15,8 @@
 		</form>	
 		<script>
 			function add(){
-				var a = document.getElementById("a").value;
-				var b = document.getElementById("b").value;
+				var a = parseInt(document.getElementById("a").value,10);
+				var b = parseInt(document.getElementById("b").value,10);
 				var c = a + b	;
 				document.getElementById("b").value = c;
 			}
