@@ -15,10 +15,10 @@
 		</form>	
 		<script>
 			function add(){
-				var a = document.getElementById("a");
-				var b = document.getElementById("b");
+				var a = document.getElementById("a").value;
+				var b = document.getElementById("b").value;
 				var c = a + b;
-				return c
+				document.getElementById("b").value = c;
 			}
 		</script>
 	</body>
