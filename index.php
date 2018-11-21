@@ -68,7 +68,7 @@
 			window.addEventListener('scroll', function() {
         			lastone = render(lastone);
         			//DEBUG
-        			document.getElementById("lastone").innerHtml = lastone;
+        			document.getElementById("lastone").innerHTML = lastone;
 			});
 
 			var isInViewport = function (el) {
