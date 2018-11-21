@@ -9,6 +9,7 @@
 	</head>
 	<body>
 		<div class="top">Zarabirsha</div>
+		<h3 id = "lastone"></h3>
 		<div class="para">
 			My name is Giuseppe Bertolini and I'm a streetphotographer. Sort of.
 			Class 1996, based in Milan, I'm studying Computer Science at PoliMi
@@ -57,7 +58,7 @@
 				last=lastone;
 				for(i = last; i < 9; i++){
 					if(isInViewport(document.getElementById(i))){
-						document.getElementById(i+1).src=document.getElementById(i+1).getAttribute("data");
+							document.getElementById(i+1).src=document.getElementById(i+1).getAttribute("data");
 						last=i;
 					}
 				}
@@ -66,6 +67,8 @@
 			
 			window.addEventListener('scroll', function() {
         			lastone = render(lastone);
+        			//DEBUG
+        			document.getElementById("lastone").innerHtml = lastone;
 			});
 
 			var isInViewport = function (el) {
