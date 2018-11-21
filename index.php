@@ -49,7 +49,10 @@
 			
 		}
 		?>
+		
+	<div class="footer">&copy 2018 Zarabirsha </div>
 		<script>
+			var lastone = 0;
 			var render = function (lastone) {
 				last=lastone;
 				for(i = last; i < 9; i++){
@@ -60,15 +63,11 @@
 				}
 				return last;
 			}
-		</script>
-	<div class="footer">&copy 2018 Zarabirsha </div>
-		<script>
+			
 			window.addEventListener('scroll', function() {
-        			render(0);
+        			lastone = render(lastone);
 			});
-		</script>
-		
-		<script>
+
 			var isInViewport = function (el) {
 				const rect = el.getBoundingClientRect();
     				const windowHeight = (window.innerHeight || document.documentElement.clientHeight);
