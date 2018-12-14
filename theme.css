@@ -1,120 +1,117 @@
 @font-face {
-    	font-family: milanobold;
-    	src: url(fonts/MTTMilanoBold.otf);
+    font-family: milanobold;
+    src: url(fonts/MTTMilanoBold.otf);
 }
 
 @font-face {
-	font-family:milano;
-	src: url(fonts/MTTMilano.otf);
+    font-family: milano;
+    src: url(fonts/MTTMilano.otf);
 }
 
-a{
-	text-decoration:none;
-	color: #333;
+a {
+    text-decoration: none;
+    color: #333;
 }
 
-a:hover{
-	color: #666;
+a:hover {
+    color: #666;
 }
 
-.top{
-	font-family:milanobold;
-	font-size:18vmin;
-	text-align:center;
-	margin:0vmin;
-	color:#222;
-	padding-top:9vmin;
-	padding-bottom:0vmin;
-	margin:0px;
+.top {
+    font-family: milanobold;
+    font-size: 18vmin;
+    text-align: center;
+    margin: 0vmin;
+    color: #222;
+    padding-top: 9vmin;
+    padding-bottom: 0vmin;
+    margin: 0px;
 }
 
 @media screen and (min-device-width: 768px) {
-    	.top {
-        	font-size:12vmin;
-    	}
+    .top {
+        font-size: 12vmin;
+    }
 }
 
-.nav{
-	width:83vmin;
-	margin:auto;
-	text-align:center;
-	font-family:milanobold;
-	font-size:5vmin;
+.nav {
+    width: 83vmin;
+    margin: auto;
+    text-align: center;
+    font-family: milanobold;
+    font-size: 5vmin;
 }
 
-@media screen and (min-device-width:768px){
-	.nav{
-		width:56vmin;
-		font-size:3vmin;
-	}
+@media screen and (min-device-width:768px) {
+    .nav {
+        width: 56vmin;
+        font-size: 3vmin;
+    }
 }
 
-img{
-
-	max-width:96vmin;
+img {
+    max-width: 96vmin;
 }
 
-.card{
-	width: 96vmin;
-	margin:auto;
-	padding:12vmin 0vmin;
-
+.card {
+    width: 96vmin;
+    margin: auto;
+    padding: 12vmin 0vmin;
 }
 
-@media screen and (min-device-width:768px){
-        .card{
-                padding:10vmin 0vmin;
-        }
+@media screen and (min-device-width:768px) {
+    .card {
+        padding: 10vmin 0vmin;
+    }
 }
 
-.description{
-	font-family:milano;
-	font-size:4vmin;
-	width:100%;
-	//margin:0% 0%;
-	padding-top:1vmin;
-	padding-bottom:0.5vmin;
-	border-bottom:1.5px solid #ccc;
-	color:#444;
-	text-align:right;
+.description {
+    font-family: milano;
+    font-size: 4vmin;
+    width: 100%;
+    //margin:0% 0%;
+    padding-top: 1vmin;
+    padding-bottom: 0.5vmin;
+    border-bottom: 1.5px solid #ccc;
+    color: #444;
+    text-align: right;
 }
 
-@media screen and (min-device-width:768px){
-        .description{
-                font-size:2.5vmin;
-        }
+@media screen and (min-device-width:768px) {
+    .description {
+        font-size: 2.5vmin;
+    }
 }
 
-.footer{
-	font-family:milano;
-	font-size: 2.5vmin;
-	text-align:center;
-	color:#666
-	padding-top:2vmin;
+.footer {
+    font-family: milano;
+    font-size: 2.5vmin;
+    text-align: center;
+    color: #666 padding-top:2vmin;
 }
 
-@media screen and (min-device-width:768px){
-        .footer{
-                font-size:1.6vmin;
-        }
+@media screen and (min-device-width:768px) {
+    .footer {
+        font-size: 1.6vmin;
+    }
 }
 
-.para{
-	font-family:milano;
-	font-size:4vmin;
-	text-align:justify;
-	width:83vmin;
-	margin:auto;
-	margin-top:-3vmin;
-	padding-top:0vmin;
-	padding-bottom:8vmin;
-	color:#444;
+.para {
+    font-family: milano;
+    font-size: 4vmin;
+    text-align: justify;
+    width: 83vmin;
+    margin: auto;
+    margin-top: -3vmin;
+    padding-top: 0vmin;
+    padding-bottom: 8vmin;
+    color: #444;
 }
 
-@media screen and (min-device-width:768px){
-        .para{
-		width:56vmin;
-                font-size:2vmin;
-		margin-top:-2vmin;
-	}
+@media screen and (min-device-width:768px) {
+    .para {
+        width: 56vmin;
+        font-size: 2vmin;
+        margin-top: -2vmin;
+    }
 }
