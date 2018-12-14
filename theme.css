@@ -10,14 +10,14 @@
 
 a{
 	text-decoration:none;
-	color: #333;
+	color: #444;
 }
 
 a:hover{
 	color: #666;
 }
 
-.top{	
+.top{
 	font-family:milanobold;
 	font-size:18vmin;
 	text-align:center;
@@ -50,15 +50,15 @@ a:hover{
 }
 
 img{
-	
+
 	max-width:96vmin;
 }
 
 .card{
-	width: 96vmin;	
+	width: 96vmin;
 	margin:auto;
 	padding:12vmin 0vmin;
-	
+
 }
 
 @media screen and (min-device-width:768px){
