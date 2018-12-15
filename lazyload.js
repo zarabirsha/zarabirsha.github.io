@@ -18,6 +18,5 @@ window.addEventListener('scroll', function() {
 var isInViewport = function(el) {
     const rect = el.getBoundingClientRect();
     const windowHeight = (window.innerHeight || document.documentElement.clientHeight);
-
     return (rect.top <= windowHeight) && ((rect.top + rect.height) >= 0);
 };
