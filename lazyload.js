@@ -1,8 +1,9 @@
 var lastone = 0;
 var render = function(lastone) {
+	var last;
     for (i = lastone; i < 8; i++) {
         if (isInViewport(document.getElementById(i))) {
-            document.getElementById(min(i + 1, 8)).src = document.getElementById(min(i + 1, 8)).getAttribute("data");
+            document.getElementById(Math.min(i + 1, 8)).src = document.getElementById(Math.min(i + 1, 8)).getAttribute("data");
             last = i;
         }
     }
