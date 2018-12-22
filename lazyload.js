@@ -1,7 +1,7 @@
 const numPics = 9;
 var lastone = 1;
 var render = function(last) {
-    for (i = numPics; i >= last; i--) {
+    for (i = numPics - 1; i >= last; i--) {
         if (isInViewport(document.getElementById(i))) {
             for (j = i + 1; j >= last; j--) {
                 document.getElementById(Math.min(j, numPics - 1)).src = document.getElementById(Math.min(j, numPics - 1)).getAttribute("data");
