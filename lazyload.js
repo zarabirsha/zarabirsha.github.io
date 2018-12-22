@@ -1,11 +1,12 @@
 const numPics = 9;
 var lastone = 1;
 var render = function(last) {
-    for (i = numpics - 1; i >= last; i--){
+    for (i = numpics; i >= last; i--){
         if(isInViewport(document.getElementById(i))){
-            for(j = last; j <= i+1; last=j++){
+            for(j = i+1; j >= last; j--){
                 document.getElementById(Math.min(j, numPics - 1)).src = document.getElementById(Math.min(j, numPics - 1)).getAttribute("data");
             }
+            last=i+1;
         }
     }
     
