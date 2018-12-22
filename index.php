@@ -68,7 +68,7 @@
 	<div class="footer">&copy 2018 Zarabirsha </div>
 
 		<!-- <script type="text/javascript" src="lazyload.js"></script> -->
-		<script type="text/javascript>
+		<script type="text/javascript">
 			const numPics=9;var lastone=1;var render=function(last){for(i=numPics-1;i>=last;i-=1){if(isInViewport(document.getElementById(i))){for(j=i+1;j>=last;j-=1){document.getElementById(Math.min(j,numPics-1)).src=document.getElementById(Math.min(j,numPics-1)).getAttribute("data")}last=i+1}}return last};window.addEventListener('scroll',function(){lastone=render(lastone);});var isInViewport=function(el){const rect=el.getBoundingClientRect();const windowHeight=(window.innerHeight||document.documentElement.clientHeight);return(rect.top<=windowHeight)&&((rect.top+rect.height)>=0)};
 		</script>
 	</body>
