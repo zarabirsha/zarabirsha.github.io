@@ -67,10 +67,10 @@
 
 	<div class="footer">&copy 2018 Zarabirsha </div>
 
-		<!-- <script type="text/javascript" src="mini-lazyload.js"></script> -->
-		<script type="text/javascript>
-		var lastone=1;var render=function(lastone){var last;for(i=lastone;i<8;i+=1){if(isInViewport(document.getElementById(i))){document.getElementById(Math.min(i+1,8)).src=document.getElementById(Math.min(i+1,8)).getAttribute("data");last=i}}return last};window.addEventListener('scroll',function(){lastone=render(lastone);});var isInViewport=function(el){const rect=el.getBoundingClientRect();const windowHeight=(window.innerHeight||document.documentElement.clientHeight);return(rect.top<=windowHeight)&&((rect.top+rect.height)>=0)};
+		<script type="text/javascript" src="lazyload.js"></script>
+		<!--<script type="text/javascript>
+		
 	
-		</script>
+		</script>-->
 	</body>
 </html>
