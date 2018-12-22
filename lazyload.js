@@ -1,5 +1,5 @@
 var lastone = 1;
-var render = function(lastone) {
+lastone = function(lastone) {
 	var last;
     for (i = lastone; i < 8; i++) {
         if (isInViewport(document.getElementById(i))) {
