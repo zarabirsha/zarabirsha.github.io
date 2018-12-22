@@ -12,8 +12,8 @@
 
 	<body>
 		<div class="top">Zarabirsha</div>
-		<!-- DEBUG
-		<h3 id = "lastone"></h3> -->
+		<!-- DEBUG -->
+		<h3 id = "lastone"></h3> 
 
 		<div class="para">
 			My name is Giuseppe Bertolini and I'm a streetphotographer. Sort of.

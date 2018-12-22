@@ -1,19 +1,27 @@
 var lastone = 1;
-lastone = function(lastone) {
-	var last;
-    for (i = lastone; i < 8; i++) {
+var render = function(last) {
+    /*for (i = last; i < 8; i++) {
         if (isInViewport(document.getElementById(i))) {
             document.getElementById(Math.min(i + 1, 8)).src = document.getElementById(Math.min(i + 1, 8)).getAttribute("data");
             last = i;
         }
+    }*/
+    
+    for (i = last; i < 8; i++){
+        if(isInViewport(document.getElementById(i))){
+            for(j = last; j <= i+1; last=j++){
+                document.getElementById(Math.min(j, 8)).src = document.getElementById(Math.min(j, 8)).getAttribute("data");
+            }
+        }
     }
+    
     return last;
 };
 
 window.addEventListener('scroll', function() {
     lastone = render(lastone);
     // DEBUG
-    // document.getElementById("lastone").innerHTML = lastone;
+    document.getElementById("lastone").innerHTML = lastone;
 });
 
 var isInViewport = function(el) {
