@@ -17,20 +17,16 @@ a:hover {
     color: #666;
 }
 
-div {
-    margin: auto;
-	padding: auto;
-}
-
 .round-image {
     margin: auto;
+	padding-top: 20vmin;
     width: 40vmin;
     border-radius: 50%;
 }
 
 @media screen and (min-device-width: 768px) {
     .round-image {
-        width: 20vmin;
+        width: 30vmin;
     }
 }
 
