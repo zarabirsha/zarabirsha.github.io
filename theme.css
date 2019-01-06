@@ -37,11 +37,9 @@ a:hover {
     font-family: milanobold;
     font-size: 18vmin;
     text-align: center;
-    margin: 0vmin;
     color: #222;
     padding-top: 9vmin;
     padding-bottom: 0vmin;
-    margin: 0px;
 }
 
 @media screen and (min-device-width: 768px) {
@@ -57,10 +55,12 @@ a:hover {
     font-family: milanobold;
     font-size: 5vmin;
 	margin-bottom: 12vmin;
+	margin-top: -2vmin;
 }
 
 @media screen and (min-device-width:768px) {
     .nav {
+		margin-top: 0vmin;
 		margin-bottom: 6vmin;
         width: 56vmin;
         font-size: 3vmin;
