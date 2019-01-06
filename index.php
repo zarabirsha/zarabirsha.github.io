@@ -69,7 +69,7 @@
         }
         ?>
 
-	<div class="footer">&copy 2018 Zarabirsha </div>
+	<div class="footer">&copy 2017-2019 Zarabirsha </div>
 
 		<!-- <script type="text/javascript" src="lazyload.js"></script> -->
 		<script type="text/javascript">
