@@ -56,10 +56,12 @@ a:hover {
     text-align: center;
     font-family: milanobold;
     font-size: 5vmin;
+	margin-bottom: 4vmin;
 }
 
 @media screen and (min-device-width:768px) {
     .nav {
+		margin-bottom: 2vmin;
         width: 56vmin;
         font-size: 3vmin;
     }
