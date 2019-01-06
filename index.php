@@ -11,7 +11,10 @@
 	</head>
 
 	<body>
-		<img class="round-image" src="images/profile.jpeg" alt="Avatar">
+		<div >
+			<img class="round-image" src="images/profile.jpeg" alt="Avatar">
+		</div>
+
 		<div class="top">Zarabirsha</div>
 		<!-- DEBUG -->
 		<!-- <h3 id = "lastone"></h3> -->
