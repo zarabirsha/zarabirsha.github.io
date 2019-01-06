@@ -11,7 +11,7 @@
 	</head>
 
 	<body>
-		<div >
+		<div align="center">
 			<img class="round-image" src="images/profile.jpeg" alt="Avatar">
 		</div>
 
@@ -62,8 +62,8 @@
         $arrlength = count($images);
 
         for ($x = 0; $x < $arrlength; $x++) {
-			// load only the first two images (min($x,1)) as some screen ratio already display the second image as well
-			// change to min($x,0) to load only the first one
+            // load only the first two images (min($x,1)) as some screen ratio already display the second image as well
+            // change to min($x,0) to load only the first one
             echo "<div class='card'><img id='". $x ."' src='". $images[min($x, 1)] ."'data='". $images[$x] ."'>";
             echo "<div class='description'>". $descriptions[$x]. "</div></div>";
         }
