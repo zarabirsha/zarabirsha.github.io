@@ -17,6 +17,10 @@ a:hover {
     color: #666;
 }
 
+div {
+    margin: auto;
+}
+
 .round-image {
     margin: auto;
     width: 40vmin;
