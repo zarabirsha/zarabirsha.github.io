@@ -18,7 +18,15 @@ a:hover {
 }
 
 .round-image {
+    margin: auto;
+    width: 40vmin;
     border-radius: 50%;
+}
+
+@media screen and (min-device-width: 768px) {
+    .round-image {
+        width: 20vmin;
+    }
 }
 
 .top {
