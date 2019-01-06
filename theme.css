@@ -19,6 +19,7 @@ a:hover {
 
 div {
     margin: auto;
+	padding: auto;
 }
 
 .round-image {
@@ -85,7 +86,6 @@ img {
     font-family: milano;
     font-size: 4vmin;
     width: 100%;
-    //margin:0% 0%;
     padding-top: 1vmin;
     padding-bottom: 0.5vmin;
     border-bottom: 1.5px solid #ccc;
