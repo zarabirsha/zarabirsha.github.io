@@ -29,6 +29,7 @@ a:hover {
     .round-image {
         width: 30vmin;
 		margin-top: 16vmin;
+		margin-bottom: 0vmin;
     }
 }
 
