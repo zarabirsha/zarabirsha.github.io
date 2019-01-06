@@ -17,6 +17,10 @@ a:hover {
     color: #666;
 }
 
+.round-image {
+    border-radius: 50%;
+}
+
 .top {
     font-family: milanobold;
     font-size: 18vmin;
