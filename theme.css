@@ -20,6 +20,7 @@ a:hover {
 .button {
     font-family: milano;
 	border: none;
+	background-color: rgba(0,0,0,0.0);
     font-size: 4vmin;
     text-align: justify;
     margin: auto;
