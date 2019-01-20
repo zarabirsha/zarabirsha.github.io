@@ -26,10 +26,10 @@
 			I shoot both film and digital, cameras and phone.
 			I try to portray what strikes my mind.
 			Eyes are just tools, just like cameras and lenses.</div>
-			<input type="button" id="toggle-language" onclick="toggleLang()">en</input>
+			<input type="button" id="toggle-language" value="en" onclick="toggleLang()">
 			<script type="text/javascript">
 				var toggleLang=function(){
-					var oldLang = document.getElementById("toggle-language").innerHTML.toString();
+					var oldLang = document.getElementById("toggle-language").value;
 					var newLang = oldLang=="en"?"it":"en";
 
 					var Connect = new XMLHttpRequest();
