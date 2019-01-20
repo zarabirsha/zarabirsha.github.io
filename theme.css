@@ -17,10 +17,27 @@ a:hover {
     color: #666;
 }
 
+.button {
+    font-family: milano;
+	border: none;
+    font-size: 4vmin;
+    text-align: justify;
+    margin: auto;
+    padding-bottom: 8vmin;
+    color: #444;
+}
+
+@media screen and (min-device-width:768px) {
+    .button {
+        font-size: 2vmin;
+        margin-top: -2vmin;
+    }
+}
+
 .round-image {
     margin: auto;
-	margin-top: 20vmin;
-	margin-bottom: 4vmin;
+    margin-top: 20vmin;
+    margin-bottom: 4vmin;
     width: 40vmin;
     border-radius: 50%;
 }
@@ -28,8 +45,8 @@ a:hover {
 @media screen and (min-device-width: 768px) {
     .round-image {
         width: 30vmin;
-		margin-top: 16vmin;
-		margin-bottom: 0vmin;
+        margin-top: 16vmin;
+        margin-bottom: 0vmin;
     }
 }
 
@@ -54,14 +71,14 @@ a:hover {
     text-align: center;
     font-family: milanobold;
     font-size: 5vmin;
-	margin-bottom: 12vmin;
-	margin-top: -2vmin;
+    margin-bottom: 12vmin;
+    margin-top: -2vmin;
 }
 
 @media screen and (min-device-width:768px) {
     .nav {
-		margin-top: 0vmin;
-		margin-bottom: 6vmin;
+        margin-top: 0vmin;
+        margin-bottom: 6vmin;
         width: 56vmin;
         font-size: 3vmin;
     }
