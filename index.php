@@ -34,7 +34,7 @@
 
 					var Connect = new XMLHttpRequest();
 
-					Connect.open("GET", "bio.xml", true);
+					Connect.open("GET", "bio.xml", false);
 					Connect.setRequestHeader("Content-Type", "text/xml");
 					Connect.send(null);
 					// Place the response in an XML document.
