@@ -23,8 +23,9 @@ a:hover {
     color: #666;
 }
 
-.button:link {
+.button {
     text-align: center;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     -webkit-appearance: none;
     width: 83vmin;
     font-family: milano;
@@ -41,7 +42,7 @@ a:hover {
 }
 
 @media screen and (min-device-width:768px) {
-    .button:link {
+    .button {
 		padding-top: 0vmin;
 		padding-bottom: 0vmin;
         width: 56vmin;
