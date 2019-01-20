@@ -26,7 +26,25 @@
 			I shoot both film and digital, cameras and phone.
 			I try to portray what strikes my mind.
 			Eyes are just tools, just like cameras and lenses.</div>
-			<input type="button" name="toggle-language" value="en">
+			<input type="button" id="toggle-language" onclick="toggleLang()">en</input>
+			<script type="text/javascript">
+				var toggleLang=function(){
+					var oldLang = document.getElementById("toggle-language").innerHTML;
+					var newLang = oldLang=="en"?"it":"en";
+
+					var Connect = new XMLHttpRequest();
+
+					Connect.open("GET", "bio.xml", false);
+					Connect.setRequestHeader("Content-Type", "text/xml");
+					Connect.send(null);
+					// Place the response in an XML document.
+					var bio = Connect.responseXML;
+					document.getElementById("bio").innerHTML = bio.getElementByName("newLang").toString();
+				}
+			</script>
+
+
+
 		<div class="nav"><a href="mailto:zarabirsha@gmail.com">mail </a>-<a href="https://www.instagram.com/zarabirsha" > instagram</a></div>
 
 		<?php
