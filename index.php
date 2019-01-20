@@ -10,7 +10,7 @@
 		</style> -->
 	</head>
 
-	<body>
+	<body ontouchstart="">
 		<div align="center">
 			<img class="round-image" src="images/profile.jpeg" alt="Avatar">
 		</div>
