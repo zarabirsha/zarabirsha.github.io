@@ -24,15 +24,12 @@ a:hover {
     font-size: 4vmin;
     text-align: justify;
 	display: inline-block;
-    margin: auto;
-    padding-bottom: 8vmin;
     color: #444;
 }
 
 @media screen and (min-device-width:768px) {
     .button {
         font-size: 2vmin;
-        margin-top: -2vmin;
     }
 }
 
