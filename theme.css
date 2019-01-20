@@ -23,7 +23,7 @@ a:hover {
     font-family: milano;
     border: none;
     color: #fff;
-	background-color: rgba(0, 0, 0, 0.8);
+	background-color: #222;
 	margin: auto;
 	margin-top: 1vmin;
     font-size: 4vmin;
@@ -40,12 +40,12 @@ a:hover {
 
 .button:hover {
 	color: #fff;
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: #666;
 }
 
 .button.active {
 	color: #fff;
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: #666;
 }
 
 .round-image {
