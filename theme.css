@@ -23,7 +23,7 @@ a:hover {
     color: #666;
 }
 
-.button {
+.button:link {
     text-align: center;
     -webkit-appearance: none;
     width: 83vmin;
@@ -41,7 +41,7 @@ a:hover {
 }
 
 @media screen and (min-device-width:768px) {
-    .button {
+    .button:link {
 		padding-top: 0vmin;
 		padding-bottom: 0vmin;
         width: 56vmin;
