@@ -32,7 +32,6 @@ a:hover {
 .button {
     text-align: center;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    -webkit-appearance: none;
     width: 83vmin;
     font-family: milano;
     border: none;
@@ -49,8 +48,8 @@ a:hover {
 
 @media screen and (min-device-width:768px) {
     .button {
-        padding-top: 0.5vmin;
-        padding-bottom: 0.5vmin;
+        padding-top: 0.4vmin;
+        padding-bottom: 0.4vmin;
         width: 56vmin;
         margin-top: 1vmin;
         font-size: 2vmin;
@@ -74,8 +73,8 @@ a:hover {
 
 .round-image {
     margin: auto;
-    margin-top: 20vmin;
-    margin-bottom: 4vmin;
+    margin-top: 18vmin;
+    margin-bottom: 2vmin;
     width: 40vmin;
     border-radius: 50%;
 }
