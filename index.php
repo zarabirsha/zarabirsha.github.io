@@ -26,20 +26,21 @@
 		</div>
 			<input type="button" id="toggle-language" value="en" onclick="toggleLang()">
 			<script type="text/javascript">
+			var bio;
 				var toggleLang=function(){
 					var oldLang = document.getElementById("toggle-language").value;
 					var newLang = oldLang=="en"?"it":"en";
 
-					var Connect = new XMLHttpRequest();
+					if(bio==null){
+						var Connect = new XMLHttpRequest();
 
-					Connect.open("GET", "bio.xml", false);
-					Connect.setRequestHeader("Content-Type", "text/xml");
-					Connect.send(null);
-					// Place the response in an XML document.
-					var bio = Connect.responseXML;
+						Connect.open("GET", "bio.xml", false);
+						Connect.setRequestHeader("Content-Type", "text/xml");
+						Connect.send(null);
+						// Place the response in an XML document.
+						bio = Connect.responseXML;
+					}
 
-					var parser = new DOMParser();
-    				var xmlDoc = parser.parseFromString(bio, "text/xml");
 					document.getElementById("bio").innerHTML = bio.getElementsByTagName(newLang)[0].childNodes[0].nodeValue;
 					document.getElementById("toggle-language").value= newLang;
 				}
@@ -67,8 +68,6 @@
         if ($result->num_rows > 0) {
             // output data of each row
             while ($row = $result->fetch_assoc()) {
-                // echo "<div class='card'><img src='". $row["pathtofile"] . "'>";
-                // echo "<div class='description'>". $row["description"]. "</div></div>";
 
                 array_push($images, $row["pathtofile"]);
                 array_push($descriptions, $row["description"]);
