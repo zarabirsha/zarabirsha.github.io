@@ -22,7 +22,6 @@
 		<div id="bio" class="para">
 			My name is Giuseppe Bertolini and I'm a streetphotographer. Sort of. Class 1996, based in Milan, I'm studying Computer Science at PoliMi and this, photography, is my passion. I shoot both film and digital, cameras and phone. I try to portray what
 				strikes my mind. Eyes are just tools, just like cameras and lenses.
-				And this is what I see.
 		</div>
 			<input type="button" id="toggle-language" value="en" onclick="toggleLang()">
 			<script type="text/javascript">
