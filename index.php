@@ -30,7 +30,7 @@
 			<script type="text/javascript">
 				var toggleLang=function(){
 					var oldLang = document.getElementById("toggle-language").innerHTML;
-					var newLang = oldLang=="en"?"it":"en";
+					var newLang = oldLang==="en"?"it":"en";
 
 					var Connect = new XMLHttpRequest();
 
