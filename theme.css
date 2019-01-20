@@ -82,12 +82,12 @@ a:hover {
     font-family: milanobold;
     font-size: 5vmin;
     margin-bottom: 12vmin;
-    margin-top: -2vmin;
+    margin-top: 6vmin;
 }
 
 @media screen and (min-device-width:768px) {
     .nav {
-        margin-top: 0vmin;
+        margin-top: 8vmin;
         margin-bottom: 6vmin;
         width: 56vmin;
         font-size: 3vmin;
@@ -148,7 +148,7 @@ img {
     margin: auto;
     margin-top: -3vmin;
     padding-top: 0vmin;
-    padding-bottom: 8vmin;
+    padding-bottom: 0vmin;
     color: #444;
 }
 
