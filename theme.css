@@ -8,6 +8,12 @@
     src: url(fonts/MTTMilano.otf);
 }
 
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
 a {
     text-decoration: none;
     color: #333;
@@ -19,24 +25,23 @@ a:hover {
 
 .button {
     text-align: center;
-	-webkit-appearance: none;
+    -webkit-appearance: none;
     width: 83vmin;
     font-family: milano;
     border: none;
-	border-radius: 0px;
-	background-image: none;
+    border-radius: 0px;
+    background-image: none;
     color: #fff;
     background-color: #222;
     margin: auto;
     margin-top: 2vmin;
     font-size: 4vmin;
-
 }
 
 @media screen and (min-device-width:768px) {
     .button {
         width: 56vmin;
-		margin-top: 1vmin;
+        margin-top: 1vmin;
         font-size: 2vmin;
     }
 }
