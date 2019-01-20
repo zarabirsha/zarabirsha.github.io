@@ -23,7 +23,7 @@
 			My name is Giuseppe Bertolini and I'm a streetphotographer. Sort of. Class 1996, based in Milan, I'm studying Computer Science at PoliMi and this, photography, is my passion. I shoot both film and digital, cameras and phone. I try to portray what
 				strikes my mind. Eyes are just tools, just like cameras and lenses.
 		</div>
-			<div align="center"><a class="myButton" id="toggle-language" value="en" onclick="toggleLang()"></div>
+			<div align="center"><a class="myButton" id="toggle-language" value="en" onclick="toggleLang()"></a></div>
 			<script type="text/javascript">
 			var bio;
 				var toggleLang=function(){
