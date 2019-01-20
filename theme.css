@@ -62,6 +62,11 @@ a:hover {
     }
 }
 
+.button:active {
+	color: #fff;
+	background-color: #666;
+}
+
 .button:visited {
     color: #fff;
     background-color: #222;
