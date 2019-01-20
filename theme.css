@@ -22,6 +22,8 @@ a:hover {
     width: 83vmin;
     font-family: milano;
     border: none;
+	border-radius: 0px;
+	background-image: none;
     color: #fff;
     background-color: #222;
     margin: auto;
