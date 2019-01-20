@@ -20,8 +20,8 @@ a:hover {
 .button {
     font-family: milano;
     border: none;
-    color: #333;
-	background-color: rgba(0, 0, 0, 0.0);
+    color: #fff;
+	background-color: rgba(0, 0, 0, 0.8);
 	margin: auto;
     font-size: 4vmin;
     text-align: justify;
@@ -35,13 +35,13 @@ a:hover {
 }
 
 .button:hover {
-	color: #666;
-	background-color: rgba(0, 0, 0, 0.0);
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.7);
 }
 
 .button.active {
-	color: #888;
-	background-color: rgba(0, 0, 0, 0.0);
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.6);
 }
 
 .round-image {
