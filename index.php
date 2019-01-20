@@ -23,7 +23,7 @@
 			My name is Giuseppe Bertolini and I'm a streetphotographer. Sort of. Class 1996, based in Milan, I'm studying Computer Science at PoliMi and this, photography, is my passion. I shoot both film and digital, cameras and phone. I try to portray what
 				strikes my mind. Eyes are just tools, just like cameras and lenses.
 		</div>
-			<input type="button" id="toggle-language" value="en" onclick="toggleLang()">
+			<input class="para" type="button" id="toggle-language" value="en" onclick="toggleLang()">
 			<script type="text/javascript">
 			var bio;
 				var toggleLang=function(){
@@ -67,7 +67,6 @@
         if ($result->num_rows > 0) {
             // output data of each row
             while ($row = $result->fetch_assoc()) {
-
                 array_push($images, $row["pathtofile"]);
                 array_push($descriptions, $row["description"]);
             }
