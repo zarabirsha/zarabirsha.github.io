@@ -18,12 +18,14 @@ a:hover {
 }
 
 .button {
+	text-align: center;
 	width: 83vmin;
     font-family: milano;
     border: none;
     color: #fff;
 	background-color: rgba(0, 0, 0, 0.8);
 	margin: auto;
+	margin-top: 1vmin;
     font-size: 4vmin;
     text-align: justify;
     display: inline-block;
