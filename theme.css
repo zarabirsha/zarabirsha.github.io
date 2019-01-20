@@ -17,7 +17,7 @@ a:hover {
     color: #666;
 }
 
-.button {
+.myButton {
     font-family: milano;
     border: none;
     background-color: rgba(0, 0, 0, 0.0);
@@ -28,16 +28,16 @@ a:hover {
 }
 
 @media screen and (min-device-width:768px) {
-    .button {
+    .myButton {
         font-size: 2vmin;
     }
 }
 
-.button:hover {
+.myButton:hover {
 	background-color: rgba(0, 0, 0, 0.0);
 }
 
-.button.active {
+.myButton.active {
 	background-color: rgba(0, 0, 0, 0.0);
 }
 
