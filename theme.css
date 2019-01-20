@@ -49,8 +49,6 @@ a:hover {
 
 @media screen and (min-device-width:768px) {
     .button {
-        padding-top: 0vmin;
-        padding-bottom: 0vmin;
         width: 56vmin;
         margin-top: 1vmin;
         font-size: 2vmin;
