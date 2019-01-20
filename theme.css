@@ -19,11 +19,11 @@ a:hover {
 
 .button {
     font-family: milano;
-	border: none;
-	background-color: rgba(0,0,0,0.0);
+    border: none;
+    background-color: rgba(0, 0, 0, 0.0);
     font-size: 4vmin;
     text-align: justify;
-	display: inline-block;
+    display: inline-block;
     color: #444;
 }
 
@@ -31,6 +31,14 @@ a:hover {
     .button {
         font-size: 2vmin;
     }
+}
+
+.button:hover {
+	background-color: rgba(0, 0, 0, 0.0);
+}
+
+.button.active {
+	background-color: rgba(0, 0, 0, 0.0);
 }
 
 .round-image {
