@@ -34,11 +34,12 @@
 
 					var Connect = new XMLHttpRequest();
 
-					Connect.open("GET", "bio.xml", false);
+					Connect.open("GET", "bio.xml", true);
 					Connect.setRequestHeader("Content-Type", "text/xml");
 					Connect.send(null);
 					// Place the response in an XML document.
 					var bio = Connect.responseXML;
+					bio= bio.getElementByTagName("bio");
 					document.getElementById("bio").innerHTML = bio.getFirstChild().getElementByTagName(newLang);
 				}
 			</script>
