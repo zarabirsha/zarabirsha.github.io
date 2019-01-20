@@ -40,8 +40,8 @@
 					// Place the response in an XML document.
 					var bio = Connect.responseXML;
 
-					parser = new DOMParser();
-    				xmlDoc = parser.parseFromString(bio, "text/xml");
+					var parser = new DOMParser();
+    				var xmlDoc = parser.parseFromString(bio, "text/xml");
 					document.getElementById("bio").innerHTML = xmlDoc.getElementsByTagName(newLang)[0];
 				}
 			</script>
