@@ -19,13 +19,14 @@
 		<!-- DEBUG -->
 		<!-- <h3 id = "lastone"></h3> -->
 
-		<div class="para">
+		<div id="bio" class="para">
 			My name is Giuseppe Bertolini and I'm a streetphotographer. Sort of.
 			Class 1996, based in Milan, I'm studying Computer Science at PoliMi
 			and this, photography, is my passion.
 			I shoot both film and digital, cameras and phone.
 			I try to portray what strikes my mind.
 			Eyes are just tools, just like cameras and lenses.</div>
+			<input type="button" name="toggle-language" value="en">
 		<div class="nav"><a href="mailto:zarabirsha@gmail.com">mail </a>-<a href="https://www.instagram.com/zarabirsha" > instagram</a></div>
 
 		<?php
