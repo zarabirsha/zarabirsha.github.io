@@ -19,6 +19,7 @@ a:hover {
 
 .button {
     text-align: center;
+	-webkit-appearance: none;
     width: 83vmin;
     font-family: milano;
     border: none;
