@@ -20,7 +20,7 @@ a:hover {
 .button {
     font-family: milano;
     border: none;
-    color: black;
+    color: #333;
 	background-color: rgba(0, 0, 0, 0.0);
 	margin: auto;
     font-size: 4vmin;
@@ -35,10 +35,12 @@ a:hover {
 }
 
 .button:hover {
+	color: #666;
 	background-color: rgba(0, 0, 0, 0.0);
 }
 
 .button.active {
+	color: #888;
 	background-color: rgba(0, 0, 0, 0.0);
 }
 
