@@ -30,7 +30,7 @@ a:hover {
     margin: auto;
     margin-top: 2vmin;
     font-size: 4vmin;
-    
+
 }
 
 @media screen and (min-device-width:768px) {
@@ -46,7 +46,7 @@ a:hover {
     background-color: #666;
 }
 
-.button.active {
+.button:active {
     color: #fff;
     background-color: #222;
 }
