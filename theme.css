@@ -34,16 +34,25 @@ a:hover {
     color: #fff;
     background-color: #222;
     margin: auto;
+	padding-top: 1vmin;
+	padding-bottom: 1vmin;
     margin-top: 2vmin;
     font-size: 4vmin;
 }
 
 @media screen and (min-device-width:768px) {
     .button {
+		padding-top: 0vmin;
+		padding-bottom: 0vmin;
         width: 56vmin;
         margin-top: 1vmin;
         font-size: 2vmin;
     }
+}
+
+.button:visited {
+    color: #fff;
+    background-color: #222;
 }
 
 .button:hover {
@@ -51,10 +60,6 @@ a:hover {
     background-color: #666;
 }
 
-.button:visited {
-    color: #fff;
-    background-color: #222;
-}
 
 .round-image {
     margin: auto;
