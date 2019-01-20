@@ -29,8 +29,8 @@
 			<input type="button" id="toggle-language" onclick="toggleLang()">en</input>
 			<script type="text/javascript">
 				var toggleLang=function(){
-					var oldLang = document.getElementById("toggle-language").innerHTML;
-					var newLang = oldLang==="en"?"it":"en";
+					var oldLang = document.getElementById("toggle-language").innerHTML.toString();
+					var newLang = oldLang=="en"?"it":"en";
 
 					var Connect = new XMLHttpRequest();
 
