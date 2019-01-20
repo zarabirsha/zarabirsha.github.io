@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<en>My name is Giuseppe Bertolini and I'm a streetphotographer. Sort of. Class 1996, based in Milan, I'm studying Computer Science at PoliMi and this, photography, is my passion. I shoot both film and digital, cameras and phone. I try to portray what
-	strikes my mind. Eyes are just tools, just like cameras and lenses. And this is what I see.
-</en>
-<it>Mi chiamo Giuseppe Bertolini e sono uno streetphotographer. Circa. Classe 1996, vivo per lo più a Milan, studio Computer Science al PoliMi e questa, la fotografia, è la mia passione. Scatto sia a pellicola che in digitale, sia con fotocamere che
-	con il telefono. Cerco di ritrarre quello che mi colpisce. Gli occhi sono solo strumenti, proprio come fotocamere e obbiettivi. E questo è ciò che vedo.
-</it>
+<bio>
+	<en>My name is Giuseppe Bertolini and I'm a streetphotographer. Sort of. Class 1996, based in Milan, I'm studying Computer Science at PoliMi and this, photography, is my passion. I shoot both film and digital, cameras and phone. I try to portray what
+		strikes my mind. Eyes are just tools, just like cameras and lenses. And this is what I see.
+	</en>
+	<it>Mi chiamo Giuseppe Bertolini e sono uno streetphotographer. Circa. Classe 1996, vivo per lo più a Milan, studio Computer Science al PoliMi e questa, la fotografia, è la mia passione. Scatto sia a pellicola che in digitale, sia con fotocamere che
+		con il telefono. Cerco di ritrarre quello che mi colpisce. Gli occhi sono solo strumenti, proprio come fotocamere e obbiettivi. E questo è ciò che vedo.
+	</it>
+</bio>
