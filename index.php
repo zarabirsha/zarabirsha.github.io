@@ -39,7 +39,7 @@
 					Connect.send(null);
 					// Place the response in an XML document.
 					var bio = Connect.responseXML;
-					document.getElementById("bio").innerHTML = bio.getElementByName("newLang").toString();
+					document.getElementById("bio").innerHTML = bio.getElementByName("newLang");
 				}
 			</script>
 
