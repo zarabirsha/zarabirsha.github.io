@@ -21,6 +21,7 @@ a:hover {
     font-family: milano;
     border: none;
     color: black;
+	background-color: rgba(0, 0, 0, 0.0);
 	margin: auto;
     font-size: 4vmin;
     text-align: justify;
