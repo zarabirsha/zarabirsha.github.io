@@ -55,16 +55,16 @@ a:hover {
         margin-top: 1vmin;
         font-size: 2vmin;
     }
+
+    .button:hover {
+        color: #fff;
+        background-color: #666;
+    }
 }
 
 .button:visited {
     color: #fff;
     background-color: #222;
-}
-
-.button:hover {
-    color: #fff;
-    background-color: #666;
 }
 
 .round-image {
