@@ -46,7 +46,7 @@ a:hover {
     background-color: #666;
 }
 
-.button:focus {
+.button:visited {
     color: #fff;
     background-color: #222;
 }
