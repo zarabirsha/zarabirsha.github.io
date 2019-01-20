@@ -18,34 +18,33 @@ a:hover {
 }
 
 .button {
-	text-align: center;
-	width: 83vmin;
+    text-align: center;
+    width: 83vmin;
     font-family: milano;
     border: none;
     color: #fff;
-	background-color: #222;
-	margin: auto;
-	margin-top: 1vmin;
+    background-color: #222;
+    margin: auto;
+    margin-top: 1vmin;
     font-size: 4vmin;
-    text-align: justify;
     display: inline-block;
 }
 
 @media screen and (min-device-width:768px) {
     .button {
-		width: 56vmin;
+        width: 56vmin;
         font-size: 2vmin;
     }
 }
 
 .button:hover {
-	color: #fff;
-	background-color: #666;
+    color: #fff;
+    background-color: #666;
 }
 
 .button.active {
-	color: #fff;
-	background-color: #666;
+    color: #fff;
+    background-color: #666;
 }
 
 .round-image {
