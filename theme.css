@@ -20,11 +20,11 @@ a:hover {
 .button {
     font-family: milano;
     border: none;
-    background-color: rgba(0, 0, 0, 0.0);
+    color: rgba(0, 0, 0, 0.0);
+	margin: auto;
     font-size: 4vmin;
     text-align: justify;
     display: inline-block;
-    color: #444;
 }
 
 @media screen and (min-device-width:768px) {
