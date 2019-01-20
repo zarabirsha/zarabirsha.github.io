@@ -38,7 +38,7 @@
 					Connect.setRequestHeader("Content-Type", "text/xml");
 					Connect.send(null);
 					// Place the response in an XML document.
-					var bio = Connect.responseXML;
+					var bio = Connect.responseXML.getFirstChild();
 					document.getElementById("bio").innerHTML = bio.getElementByTagName(newLang);
 				}
 			</script>
