@@ -38,8 +38,8 @@
 					Connect.setRequestHeader("Content-Type", "text/xml");
 					Connect.send(null);
 					// Place the response in an XML document.
-					var bio = Connect.responseXML.getFirstChild();
-					document.getElementById("bio").innerHTML = bio.getElementByTagName(newLang);
+					var bio = Connect.responseXML;
+					document.getElementById("bio").innerHTML = bio.getFirstChild().getElementByTagName(newLang);
 				}
 			</script>
 
