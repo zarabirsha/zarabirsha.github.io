@@ -43,6 +43,7 @@
 					var parser = new DOMParser();
     				var xmlDoc = parser.parseFromString(bio, "text/xml");
 					document.getElementById("bio").innerHTML = bio.getElementsByTagName(newLang)[0].childNodes[0].nodeValue;
+					document.getElementById("toggle-language").value= newLang;
 				}
 			</script>
 
