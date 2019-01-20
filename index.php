@@ -41,7 +41,7 @@
 						bio = Connect.responseXML;
 					}
 
-					document.getElementById("bio").innerHTML = bio.getElementsByTagName(newLang)[0].childNodes[0].nodeValue;
+					document.getElementById("bio").innerHTML = bio.getElementsByTagName(newLang)[0].innerHTML;
 					document.getElementById("toggle-language").value= newLang;
 				}
 			</script>
