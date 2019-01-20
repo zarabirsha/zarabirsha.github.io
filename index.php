@@ -42,7 +42,7 @@
 
 					parser = new DOMParser();
     				xmlDoc = parser.parseFromString(bio, "text/xml");
-					document.getElementById("bio").innerHTML = xmlDoc.getElementByTagName(newLang);
+					document.getElementById("bio").innerHTML = xmlDoc.getElementsByTagName(newLang)[0];
 				}
 			</script>
 
