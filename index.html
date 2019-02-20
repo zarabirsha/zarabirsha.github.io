@@ -51,15 +51,14 @@
 	<div class="nav"><a href="mailto:zarabirsha@gmail.com">mail </a>-<a href="https://www.instagram.com/zarabirsha"> instagram</a></div>
 
 	<script type="text/javascript">
-		var json_images_file = function() {
-			var Connect = new XMLHttpRequest();
 
-			Connect.open("GET", "images.json", false);
-			Connect.setRequestHeader("Content-Type", "text/json");
-			Connect.send(null);
-			// Place the response in an XML document.
-			return Connect.responseXML;
-		}
+		var Connect = new XMLHttpRequest();
+		Connect.open("GET", "images.json", false);
+		Connect.setRequestHeader("Content-Type", "text/json");
+		Connect.send(null);
+
+		var json_images_file = Connect.responseXML;
+		
 		var images_list = JSON.parse(json_images_file)
 
 		//echo "<div class='card'><img id='". $x ."' src='". $images[min($x, 1)] ."'data='". $images[$x] ."'>";
