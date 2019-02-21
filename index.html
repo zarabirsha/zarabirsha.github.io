@@ -53,19 +53,15 @@
 	<script type="text/javascript">
 		var xmlhttp = new XMLHttpRequest();
 		var url = "images.json";
-
+		var images
 		xmlhttp.onreadystatechange = function() {
 			if (this.readyState == 4 && this.status == 200) {
-				var myArr = JSON.parse(this.responseText);
-				renderImages(myArr);
+				images = JSON.parse(this.responseText);
+				renderImages(images);
 			}
 		};
 		xmlhttp.open("GET", url, true);
 		xmlhttp.send();
-
-
-
-		var renderImages = function(images_list) {}
 
 		var priority_sort = function(a, b) {
 			if (a['priority'] > b['priority']) {
@@ -100,9 +96,9 @@
 
 	<div id="footer" class="footer">&copy 2017-2019 Giuseppe Bertolini </div>
 
-	<!-- <script type="text/javascript" src="lazyload.js"></script>
+	<!-- <script type="text/javascript" src="lazyload.js"></script>-->
 	<script type="text/javascript">
-		const numPics = 9;
+		const numPics = images.length;
 		var lastone = 1;
 		var render = function(last) {
 			for (i = numPics - 1; i >= last; i -= 1) {
@@ -123,7 +119,7 @@
 			const windowHeight = (window.innerHeight || document.documentElement.clientHeight);
 			return (rect.top <= windowHeight) && ((rect.top + rect.height) >= 0)
 		};
-	</script>-->
+	</script>
 </body>
 
 </html>
