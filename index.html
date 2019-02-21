@@ -24,7 +24,7 @@
 		My name is Giuseppe Bertolini and I'm a streetphotographer. Sort of. Class 1996, based in Milan, I'm studying Computer Science at PoliMi and this, photography, is my passion. I shoot both film and digital, cameras and phone. I try to portray what
 		strikes my mind. Eyes are just tools, just like cameras and lenses.
 	</div>
-	<div align="center"><input type="button" class="button" id="toggle-language" value="en" onclick="toggleLang()" /></div>
+	<div align="center"><input type="button" class="button" id="toggle-language" value="it" onclick="toggleLang()" /></div>
 	<script type="text/javascript">
 		var bio;
 		var toggleLang = function() {
@@ -34,14 +34,17 @@
 			if (bio == null) {
 				var Connect = new XMLHttpRequest();
 
+				Connect.onreadystatechange = function() {
+					if (this.readyState == 4 && this.status == 200) {
+						bio = Connect.responseXML;
+					}
+				}
 				Connect.open("GET", "bio.xml", true);
 				Connect.setRequestHeader("Content-Type", "text/xml");
-				Connect.send(null);
-				// Place the response in an XML document.
-				bio = Connect.responseXML;
+				Connect.send();
 			}
 
-			document.getElementById("bio").innerHTML = bio.getElementsByTagName(newLang)[0].innerHTML;
+			document.getElementById("bio").innerHTML = bio.getElementsByTagName(oldLang)[0].innerHTML;
 			document.getElementById("toggle-language").value = newLang;
 		}
 	</script>
