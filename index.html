@@ -29,7 +29,7 @@
 		var bio;
 		var toggleLang = function() {
 			var oldLang = document.getElementById("toggle-language").value;
-			var newLang = oldLang == "en" ? "it" : "en";
+			var newLang = oldLang;
 
 			if (bio == null) {
 				var Connect = new XMLHttpRequest();
@@ -45,6 +45,7 @@
 			}
 
 			document.getElementById("bio").innerHTML = bio.getElementsByTagName(newLang)[0].innerHTML;
+			newLang = oldLang == "en" ? "it" : "en";
 			document.getElementById("toggle-language").value = newLang;
 		}
 	</script>
