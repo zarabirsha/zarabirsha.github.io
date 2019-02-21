@@ -51,6 +51,7 @@
 	<div class="nav"><a href="mailto:zarabirsha@gmail.com">mail </a>-<a href="https://www.instagram.com/zarabirsha"> instagram</a></div>
 
 	<script type="text/javascript">
+		//get images
 		var xmlhttp = new XMLHttpRequest();
 		var url = "images.json";
 		var images
@@ -89,15 +90,9 @@
 			}
 		}
 
-		//echo "<div class='card'><img id='". $x ."' src='". $images[min($x, 1)] ."'data='". $images[$x] ."'>";
-		// echo "<div class='description'>". $descriptions[$x]. "</div></div>";
-	</script>
 
 
-	<div id="footer" class="footer">&copy 2017-2019 Giuseppe Bertolini </div>
-
-	<!-- <script type="text/javascript" src="lazyload.js"></script>-->
-	<script type="text/javascript">
+		// lazyload
 		const numPics = images.length;
 		var lastone = 1;
 		var render = function(last) {
@@ -120,6 +115,9 @@
 			return (rect.top <= windowHeight) && ((rect.top + rect.height) >= 0)
 		};
 	</script>
+
+
+	<div id="footer" class="footer">&copy 2017-2019 Giuseppe Bertolini </div>
 </body>
 
 </html>
