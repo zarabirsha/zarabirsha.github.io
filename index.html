@@ -55,9 +55,12 @@
 		var xmlhttp = new XMLHttpRequest();
 		var url = "images.json";
 		var images
+		var numPics 
+
 		xmlhttp.onreadystatechange = function() {
 			if (this.readyState == 4 && this.status == 200) {
 				images = JSON.parse(this.responseText);
+				numPics = images.length;
 				renderImages(images);
 			}
 		};
@@ -93,7 +96,7 @@
 
 
 		// lazyload
-		const numPics = images.length;
+
 		var lastone = 1;
 		var render = function(last) {
 			for (i = numPics - 1; i >= last; i -= 1) {
