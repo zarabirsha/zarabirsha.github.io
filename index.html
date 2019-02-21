@@ -53,7 +53,7 @@
 	<script type="text/javascript">
 		var Connect = new XMLHttpRequest();
 		Connect.open("GET", "images.json", false);
-		//Connect.setRequestHeader("Content-Type", "text/json");
+		Connect.setRequestHeader("Content-Type", "text/json");
 		Connect.send(null);
 
 		var json_images_file = Connect.responseXML;
