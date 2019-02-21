@@ -51,14 +51,21 @@
 	<div class="nav"><a href="mailto:zarabirsha@gmail.com">mail </a>-<a href="https://www.instagram.com/zarabirsha"> instagram</a></div>
 
 	<script type="text/javascript">
-		var Connection = new XMLHttpRequest();
-		Connection.open("GET", "images.json", true);
-		Connection.setRequestHeader("Content-Type", "application/json");
-		Connection.send(null);
+		var xmlhttp = new XMLHttpRequest();
+		var url = "images.json";
 
-		var json_images_file = Connection.responseText;
+		xmlhttp.onreadystatechange = function() {
+			if (this.readyState == 4 && this.status == 200) {
+				var myArr = JSON.parse(this.responseText);
+				renderImages(myArr);
+			}
+		};
+		xmlhttp.open("GET", url, true);
+		xmlhttp.send();
 
-		var images_list = JSON.parse(json_images_file)
+
+
+		var renderImages = function(images_list) {}
 
 		var priority_sort = function(a, b) {
 			if (a['priority'] > b['priority']) {
@@ -68,20 +75,22 @@
 			}
 			return 0;
 		}
-		images_list.sort(priority_sort)
+		var renderImages = function(images_list) {
+			images_list.sort(priority_sort)
 
-		for (i = 0; i < images_list.length; i++) {
-			var elem = document.createElement('div');
-			elem.classList.add('card');
-			elem.innerHTML = "<img id='" + i + "' src='images/" + images_list[min(i, 1)].name +
-				"'data='images/" +
-				images_list[i].name +
-				"'> <div class='description'>" + images_list[i].title +
-				"</div>";
-			var footer = document.getElementById('footer');
+			for (i = 0; i < images_list.length; i++) {
+				var elem = document.createElement('div');
+				elem.classList.add('card');
+				elem.innerHTML = "<img id='" + i + "' src='images/" + images_list[min(i, 1)].name +
+					"'data='images/" +
+					images_list[i].name +
+					"'> <div class='description'>" + images_list[i].title +
+					"</div>";
+				var footer = document.getElementById('footer');
 
-			footer.parentNode.insertBefore(elem, footer);
+				footer.parentNode.insertBefore(elem, footer);
 
+			}
 		}
 
 		//echo "<div class='card'><img id='". $x ."' src='". $images[min($x, 1)] ."'data='". $images[$x] ."'>";
