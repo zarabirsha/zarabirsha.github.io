@@ -34,7 +34,7 @@
 			if (bio == null) {
 				var Connect = new XMLHttpRequest();
 
-				Connect.open("GET", "bio.xml", false);
+				Connect.open("GET", "bio.xml", true);
 				Connect.setRequestHeader("Content-Type", "text/xml");
 				Connect.send(null);
 				// Place the response in an XML document.
@@ -52,7 +52,7 @@
 
 	<script type="text/javascript">
 		var Connect = new XMLHttpRequest();
-		Connect.open("GET", "images.json", false);
+		Connect.open("GET", "images.json", true);
 		Connect.setRequestHeader("Content-Type", "application/json");
 		Connect.send(null);
 
