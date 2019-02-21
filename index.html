@@ -31,22 +31,28 @@
 			var oldLang = document.getElementById("toggle-language").value;
 			var newLang = oldLang;
 
+			var toggle = function() {
+				document.getElementById("bio").innerHTML = bio.getElementsByTagName(newLang)[0].innerHTML;
+				newLang = oldLang == "en" ? "it" : "en";
+				document.getElementById("toggle-language").value = newLang;
+			}
+
 			if (bio == null) {
 				var Connect = new XMLHttpRequest();
 
 				Connect.onreadystatechange = function() {
 					if (this.readyState == 4 && this.status == 200) {
 						bio = Connect.responseXML;
+						toggle()
 					}
 				}
 				Connect.open("GET", "bio.xml", true);
 				Connect.setRequestHeader("Content-Type", "text/xml");
 				Connect.send();
-			}
+			} else {
+				toggle()
 
-			document.getElementById("bio").innerHTML = bio.getElementsByTagName(newLang)[0].innerHTML;
-			newLang = oldLang == "en" ? "it" : "en";
-			document.getElementById("toggle-language").value = newLang;
+			}
 		}
 	</script>
 
