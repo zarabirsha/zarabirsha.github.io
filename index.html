@@ -51,12 +51,12 @@
 	<div class="nav"><a href="mailto:zarabirsha@gmail.com">mail </a>-<a href="https://www.instagram.com/zarabirsha"> instagram</a></div>
 
 	<script type="text/javascript">
-		var Connect = new XMLHttpRequest();
-		Connect.open("GET", "images.json", true);
-		Connect.setRequestHeader("Content-Type", "application/json");
-		Connect.send(null);
+		var Connection = new XMLHttpRequest();
+		Connection.open("GET", "images.json", true);
+		Connection.setRequestHeader("Content-Type", "application/json");
+		Connection.send(null);
 
-		var json_images_file = Connect.responseText;
+		var json_images_file = Connection.responseText;
 
 		var images_list = JSON.parse(json_images_file)
 
