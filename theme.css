@@ -71,6 +71,9 @@ a:hover {
     background-color: #222;
 }
 
+div .round-image{
+    margin: auto;
+}
 .round-image {
     align-self: center;
     margin: auto;
