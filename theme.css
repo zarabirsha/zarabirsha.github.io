@@ -72,6 +72,7 @@ a:hover {
 }
 
 .round-image {
+    align-self: center;
     margin: auto;
     margin-top: 18vmin;
     margin-bottom: 2vmin;
@@ -158,7 +159,8 @@ img {
     font-family: milano;
     font-size: 2.5vmin;
     text-align: center;
-    color: #666 padding-top:2vmin;
+    color: #666 ;
+    padding-top:2vmin;
 }
 
 @media screen and (min-device-width:768px) {
