@@ -71,14 +71,11 @@ a:hover {
     background-color: #222;
 }
 
-div .round-image{
-    margin: auto;
-}
+
 .round-image {
-    align-self: center;
-    margin: auto;
     margin-top: 18vmin;
     margin-bottom: 2vmin;
+    margin: auto;
     width: 40vmin;
     border-radius: 50%;
 }

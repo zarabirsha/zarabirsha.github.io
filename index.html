@@ -20,8 +20,15 @@
             document.body.setAttribute('onscroll', '');
          }
       }
+
+      function http_get(url) {
+         var xml_http = new XMLHttpRequest();
+         xml_http.open("GET", url, false); // false for synchronous request
+         xml_http.send(null);
+         return xml_http.responseText;
+      }
    </script>
-   <div >
+   <div align-self="center">
       <img class="round-image" src="images/profile.jpeg" alt="Avatar">
    </div>
 
@@ -30,18 +37,20 @@
    <!-- <h3 id = "lastone"></h3> -->
 
    <div id="bio" class="para">
-      My name is Giuseppe Bertolini and I'm a streetphotographer. Sort of. Class 1996, based in Milan, I'm studying Computer Science at PoliMi and this, photography, is my passion. I shoot both film and digital, cameras and phone. I try to portray
+      My name is Giuseppe Bertolini and I'm a streetphotographer. Sort of. Class 1996, based in Milan, I'm studying
+      Computer Science at PoliMi and this, photography, is my passion. I shoot both film and digital, cameras and phone.
+      I try to portray
       what
       strikes my mind. Eyes are just tools, just like cameras and lenses.
    </div>
-   <div ><input type="button" class="button" id="toggle-language" value="it" onclick="toggleLang()" /></div>
+   <div><input type="button" class="button" id="toggle-language" value="it" onclick="toggleLang()" /></div>
    <script type="text/javascript">
       var bio;
-      var toggleLang = function() {
+      var toggleLang = function () {
          var oldLang = document.getElementById("toggle-language").value;
          var newLang = oldLang;
 
-         var toggle = function() {
+         var toggle = function () {
             document.getElementById("bio").innerHTML = bio.getElementsByTagName(newLang)[0].innerHTML;
             newLang = oldLang == "en" ? "it" : "en";
             document.getElementById("toggle-language").value = newLang;
@@ -50,7 +59,7 @@
          if (bio == null) {
             var Connect = new XMLHttpRequest();
 
-            Connect.onreadystatechange = function() {
+            Connect.onreadystatechange = function () {
                if (this.readyState == 4 && this.status == 200) {
                   bio = Connect.responseXML;
                   toggle()
@@ -68,7 +77,8 @@
 
 
 
-   <div class="nav"><a href="mailto:zarabirsha@gmail.com">mail </a>-<a href="https://www.instagram.com/zarabirsha"> instagram</a></div>
+   <div class="nav"><a href="mailto:zarabirsha@gmail.com">mail </a>-<a href="https://www.instagram.com/zarabirsha">
+         instagram</a></div>
 
    <script type="text/javascript">
       //get images
@@ -77,7 +87,7 @@
       var images
       var numPics
 
-      xmlhttp.onreadystatechange = function() {
+      xmlhttp.onreadystatechange = function () {
          if (this.readyState == 4 && this.status == 200) {
             images = JSON.parse(this.responseText);
             numPics = images.length;
@@ -87,7 +97,7 @@
       xmlhttp.open("GET", url, true);
       xmlhttp.send();
 
-      var priority_sort = function(a, b) {
+      var priority_sort = function (a, b) {
          if (a['priority'] > b['priority']) {
             return 1;
          } else if (a['priority'] < b['priority']) {
@@ -95,7 +105,7 @@
          }
          return 0;
       }
-      var renderImages = function(images_list) {
+      var renderImages = function (images_list) {
          images_list.sort(priority_sort)
 
          for (i = 0; i < images_list.length; i++) {
@@ -116,21 +126,22 @@
       // lazyload
 
       var lastone = 1;
-      var render = function(last) {
+      var render = function (last) {
          for (i = numPics - 1; i >= last; i -= 1) {
             if (isInViewport(document.getElementById(i))) {
                for (j = i + 1; j >= last; j -= 1) {
-                  document.getElementById(Math.min(j, numPics - 1)).src = document.getElementById(Math.min(j, numPics - 1)).getAttribute("data")
+                  document.getElementById(Math.min(j, numPics - 1)).src = document.getElementById(Math.min(j,
+                     numPics - 1)).getAttribute("data")
                }
                last = i + 1
             }
          }
          return last
       };
-      window.addEventListener('scroll', function() {
+      window.addEventListener('scroll', function () {
          lastone = render(lastone);
       });
-      var isInViewport = function(el) {
+      var isInViewport = function (el) {
          const rect = el.getBoundingClientRect();
          const windowHeight = (window.innerHeight || document.documentElement.clientHeight);
          return (rect.top <= windowHeight) && ((rect.top + rect.height) >= 0)
