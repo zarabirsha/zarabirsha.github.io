@@ -127,7 +127,8 @@ img {
 }
 
 .card {
-    width: 96vmin;
+
+    height: 96vmin;
     margin: auto;
     padding: 12vmin 0vmin;
 }
