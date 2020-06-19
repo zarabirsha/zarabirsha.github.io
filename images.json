@@ -1,42 +1,96 @@
 [
     {
-        "name": "flat.jpg",
+        "name": "flat.jpeg",
         "title": "flat.",
         "priority": 0
     },
     {
-        "name": "precarious-light.jpg",
+        "name": "precarious-light.jpeg",
         "title": "precarious light.",
         "priority": 1
     },
     {
-        "name": "fun.jpg",
+        "name": "fun.jpeg",
         "title": "fun.",
-        "priority": 2
+        "priority": 4.9
+    },
+    
+    {
+        "name": "smile.jpeg",
+        "title": "spirit.",
+        "priority": 2.9
     },
     {
-        "name": "cant.jpg",
+        "name": "cant.jpeg",
         "title": "can't.",
         "priority": 3
     },
+    
     {
-        "name": "disappear.jpg",
+        "name": "cant2.jpeg",
+        "title": "can't..",
+        "priority": 3.2
+    },
+    
+    {
+        "name": "cant3.jpeg",
+        "title": "can't...",
+        "priority": 3.3
+    },
+    {
+        "name": "disappear.jpeg",
         "title": "how to disappear completely.",
         "priority": 4
     },
     {
-        "name": "incognito.jpg",
-        "title": "incognito.",
+        "name": "closer.jpeg",
+        "title": "closer.",
+        "priority": 4.1
+    }
+    ,
+    {
+        "name": "look.jpeg",
+        "title": "look.",
+        "priority": 4.2
+    },
+    {
+        "name": "look2.jpeg",
+        "title": "look..",
+        "priority": 4.3
+    },
+    {
+        "name": "look3.jpeg",
+        "title": "look...",
+        "priority": 4.39
+    },
+    {
+        "name": "visibles.jpeg",
+        "title": "visible.",
+        "priority": 4.4
+    },
+    {
+        "name": "invisibles.jpeg",
+        "title": "invisible.",
+        "priority": 4.5
+    },
+    {
+        "name": "always-me.jpeg",
+        "title": "always me.",
         "priority": 5
     },
     {
-        "name": "cant2.jpg",
-        "title": "can't..",
-        "priority": 3.5
+        "name": "die-easily.jpeg",
+        "title": "die easily.",
+        "priority": 6
     },
     {
-        "name": "incognito2.jpg",
-        "title": "incognito..",
-        "priority": 6
-    }
+        "name": "blm.jpeg",
+        "title": "blm.",
+        "priority": 7
+    },
+    {
+        "name": "blm2.jpeg",
+        "title": "blm..",
+        "priority": 7.1
+    },
 ]
