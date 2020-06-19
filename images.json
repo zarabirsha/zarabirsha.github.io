@@ -14,7 +14,7 @@
         "title": "fun.",
         "priority": 4.9
     },
-    
+
     {
         "name": "smile.jpeg",
         "title": "spirit.",
@@ -25,13 +25,13 @@
         "title": "can't.",
         "priority": 3
     },
-    
+
     {
         "name": "cant2.jpeg",
         "title": "can't..",
         "priority": 3.2
     },
-    
+
     {
         "name": "cant3.jpeg",
         "title": "can't...",
@@ -92,5 +92,5 @@
         "name": "blm2.jpeg",
         "title": "blm..",
         "priority": 7.1
-    },
+    }
 ]
