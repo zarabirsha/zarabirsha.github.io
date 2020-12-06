@@ -21,20 +21,18 @@
         "priority": 2.9
     },
     {
+        "name": "the-great-wave.jpeg",
+        "title": "the great wave.",
+        "priority": 3.2
+    },
+    {
         "name": "cant.jpeg",
         "title": "can't.",
         "priority": 3
     },
-
-    {
-        "name": "cant2.jpeg",
-        "title": "can't..",
-        "priority": 3.2
-    },
-
     {
         "name": "cant3.jpeg",
-        "title": "can't...",
+        "title": "can't..",
         "priority": 3.3
     },
     {
