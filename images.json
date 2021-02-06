@@ -5,6 +5,11 @@
         "priority": 0
     },
     {
+        "name": "grounded.jpeg",
+        "title": "grounded.",
+        "priority": 0.1
+    },
+    {
         "name": "precarious-light.jpeg",
         "title": "precarious light.",
         "priority": 1
