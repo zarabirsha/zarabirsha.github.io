@@ -10,6 +10,31 @@
         "priority": 0.1
     },
     {
+        "name": "grounded2.jpeg",
+        "title": "grounded..",
+        "priority": 0.11
+    },
+    {
+        "name": "halloween.jpeg",
+        "title": "how are you.",
+        "priority": 0.12
+    },
+    {
+        "name": "how-r-u.jpeg",
+        "title": "fine.",
+        "priority": 0.13
+    },
+    {
+        "name": "wonderful-world.jpeg",
+        "title": "what a wonderful world.",
+        "priority": 0.2
+    },
+    {
+        "name": "willy.jpeg",
+        "title": "Willy era in terra, non poteva difendersi. E gli saltavano sopra.",
+        "priority": 0.2
+    },
+    {
         "name": "precarious-light.jpeg",
         "title": "precarious light.",
         "priority": 1
@@ -66,6 +91,11 @@
         "name": "look3.jpeg",
         "title": "look...",
         "priority": 4.39
+    },
+    {
+        "name": "inglesina.jpeg",
+        "title": "inglesina.",
+        "priority": 4.4
     },
     
     {
