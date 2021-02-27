@@ -17,7 +17,7 @@
     {
         "name": "fun.jpeg",
         "title": "fun.",
-        "priority": 4.9
+        "priority": 2.88
     },
 
     {
@@ -26,15 +26,16 @@
         "priority": 2.9
     },
     {
-        "name": "the-great-wave.jpeg",
-        "title": "the great wave.",
-        "priority": 3.2
-    },
-    {
         "name": "cant.jpeg",
         "title": "can't.",
         "priority": 3
     },
+    {
+        "name": "the-great-wave.jpeg",
+        "title": "the great wave.",
+        "priority": 3.2
+    },
+    
     {
         "name": "cant3.jpeg",
         "title": "can't..",
@@ -66,16 +67,7 @@
         "title": "look...",
         "priority": 4.39
     },
-    {
-        "name": "visibles.jpeg",
-        "title": "visible.",
-        "priority": 4.4
-    },
-    {
-        "name": "invisibles.jpeg",
-        "title": "invisible.",
-        "priority": 4.5
-    },
+    
     {
         "name": "always-me.jpeg",
         "title": "always me.",
