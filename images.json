@@ -1,126 +1,117 @@
-[
+{
+  "categories": [
     {
-        "name": "flat.jpeg",
-        "title": "flat.",
-        "priority": 0
+      "id": "street",
+      "title": "Street Life",
+      "subtitle": "Capturing moments in urban spaces",
+      "photos": [
+        {
+          "name": "flat.jpeg",
+          "title": "flat.",
+          "priority": 0
+        },
+        {
+          "name": "grounded.jpeg",
+          "title": "grounded.",
+          "priority": 0.1
+        },
+        {
+          "name": "grounded2.jpeg",
+          "title": "grounded..",
+          "priority": 0.11
+        },
+        {
+          "name": "wonderful-world.jpeg",
+          "title": "what a wonderful world.",
+          "priority": 0.2
+        }
+      ]
     },
     {
-        "name": "grounded.jpeg",
-        "title": "grounded.",
-        "priority": 0.1
+      "id": "portraits",
+      "title": "Portraits",
+      "subtitle": "People and their stories",
+      "photos": [
+        {
+          "name": "halloween.jpeg",
+          "title": "how are you.",
+          "priority": 0.12
+        },
+        {
+          "name": "how-r-u.jpeg",
+          "title": "fine.",
+          "priority": 0.13
+        },
+        {
+          "name": "smile.jpeg",
+          "title": "spirit.",
+          "priority": 2.9
+        },
+        {
+          "name": "always-me.jpeg",
+          "title": "always me.",
+          "priority": 5
+        }
+      ]
     },
     {
-        "name": "grounded2.jpeg",
-        "title": "grounded..",
-        "priority": 0.11
+      "id": "artistic",
+      "title": "Artistic Vision",
+      "subtitle": "Experimental and conceptual photography",
+      "photos": [
+        {
+          "name": "la-vie-en-rose.jpeg",
+          "title": "la Vie en rose.",
+          "priority": 0.111
+        },
+        {
+          "name": "precarious-light.jpeg",
+          "title": "precarious light.",
+          "priority": 1
+        },
+        {
+          "name": "fun.jpeg",
+          "title": "fun.",
+          "priority": 2.88
+        },
+        {
+          "name": "the-great-wave.jpeg",
+          "title": "the great wave.",
+          "priority": 3.2
+        }
+      ]
     },
     {
-        "name": "la-vie-en-rose.jpeg",
-        "title": "la Vie en rose.",
-        "priority": 0.111
-    },
-    {
-        "name": "halloween.jpeg",
-        "title": "how are you.",
-        "priority": 0.12
-    },
-    {
-        "name": "how-r-u.jpeg",
-        "title": "fine.",
-        "priority": 0.13
-    },
-    {
-        "name": "wonderful-world.jpeg",
-        "title": "what a wonderful world.",
-        "priority": 0.2
-    },
-    {
-        "name": "willy.jpeg",
-        "title": "Willy era in terra, non poteva difendersi. E gli saltavano sopra.",
-        "priority": 0.2
-    },
-    {
-        "name": "precarious-light.jpeg",
-        "title": "precarious light.",
-        "priority": 1
-    },
-    {
-        "name": "fun.jpeg",
-        "title": "fun.",
-        "priority": 2.88
-    },
-
-    {
-        "name": "smile.jpeg",
-        "title": "spirit.",
-        "priority": 2.9
-    },
-    {
-        "name": "cant.jpeg",
-        "title": "can't.",
-        "priority": 3
-    },
-    {
-        "name": "the-great-wave.jpeg",
-        "title": "the great wave.",
-        "priority": 3.2
-    },
-    
-    {
-        "name": "cant3.jpeg",
-        "title": "can't..",
-        "priority": 3.3
-    },
-    {
-        "name": "disappear.jpeg",
-        "title": "how to disappear completely.",
-        "priority": 4
-    },
-    {
-        "name": "closer.jpeg",
-        "title": "closer.",
-        "priority": 4.1
+      "id": "series",
+      "title": "Photo Series",
+      "subtitle": "Connected visual narratives",
+      "photos": [
+        {
+          "name": "look.jpeg",
+          "title": "look.",
+          "priority": 4.2
+        },
+        {
+          "name": "look2.jpeg",
+          "title": "look..",
+          "priority": 4.3
+        },
+        {
+          "name": "look3.jpeg",
+          "title": "look...",
+          "priority": 4.39
+        },
+        {
+          "name": "blm.jpeg",
+          "title": "blm.",
+          "priority": 7
+        },
+        {
+          "name": "blm2.jpeg",
+          "title": "blm..",
+          "priority": 7.1
+        }
+      ]
     }
-    ,
-    {
-        "name": "look.jpeg",
-        "title": "look.",
-        "priority": 4.2
-    },
-    {
-        "name": "look2.jpeg",
-        "title": "look..",
-        "priority": 4.3
-    },
-    {
-        "name": "look3.jpeg",
-        "title": "look...",
-        "priority": 4.39
-    },
-    {
-        "name": "inglesina.jpeg",
-        "title": "inglesina.",
-        "priority": 4.4
-    },
-    
-    {
-        "name": "always-me.jpeg",
-        "title": "always me.",
-        "priority": 5
-    },
-    {
-        "name": "die-easily.jpeg",
-        "title": "die easily.",
-        "priority": 6
-    },
-    {
-        "name": "blm.jpeg",
-        "title": "blm.",
-        "priority": 7
-    },
-    {
-        "name": "blm2.jpeg",
-        "title": "blm..",
-        "priority": 7.1
-    }
-]
+  ]
+}
